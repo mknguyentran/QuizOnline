@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 31, 2020, 11:31:53 PM
+    Author     : Mk
+*/
+
+@font-face {
+    font-family: "SFProRoundedBold";
+    src: url(../font/SF-Pro-Rounded-Bold.otf) format("opentype")
+}
+
+@font-face {
+    font-family: "SFProRoundedLight";
+    src: url(../font/SF-Pro-Rounded-Light.otf) format("opentype")
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+#content{
+    text-align: center;
+}
+
+#searchBar{
+    width: 520px;
+    margin: auto;
+}
+
+.subject {
+    text-align: left;
+    margin: auto;
+    width:500px;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.subject:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.subjectTitle{
+    font-family: SFProRoundedBold;
+    margin-bottom: 20px;
+}
+
+.subjectDescription{
+    font-family: SFProRoundedLight;
+    margin: 10px 0 0 0;
+}
